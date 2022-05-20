@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+   
+}
+
+#rings{
+border-radius: 50%;
+max-width: 100%;
+height: auto;
+opacity: 0.8;
+/* animation : pulse 0.5s 3s infinite alternate; */
+ 
+}
+/* 
+@keyframes pulse {
+    from {
+        transform : scale(1);
+        opacity   : 1;
+    }
+    50% {
+        transform : scale(0.75);
+        opacity   : 0.25;
+    }
+    to {
+        transform : scale(1);
+        opacity   : 1;
+    }
+} */
