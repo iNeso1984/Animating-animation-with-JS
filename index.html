@@ -5,28 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ring Animation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/src/styles.css">
     <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/cbbc3e3d8c.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
-    <div class="img1">
-         <div class="sphere ball ball1" id="blue"></div>
-      
+
+  
+  <nav class="navbar">
+    <div class="logo_header">
+   <a href="/index.html" class="logo">Vanessa Withun: Front-End Web Developer</a>
+     
+      <button class="navbar_toggle">
+        <i class="fas fa-bars"></i>
+      </button>
     </div>
+
     
-     <section></section>
+    <ul class="main_nav">
+      <li>
+             <i class="fa-solid fa-house"></i>
+        <a href="/index.html" class="nav_links">Home</a>
+      </li>
+      <li>
+        <a href="/about.html" class="nav_links">About</a>
+      </li>
+      <li>
+        <a href="/contact.html" class="nav_links">Contact</a>
+      </li>
+      <li>
+        <a href="https://vanessawithun.wordpress.com/" class="nav_links">Blog</a>
+      </li>
+    </ul>
+      
+  </nav>
+ 
+      <canvas id="c"> </canvas>
 
     <div class="onStart">
-        <h1 class="fancy item-fade">Hello World</h1>
+        <h1 class="fancy item-fade parallax">Hello World</h1>
     </div>
+
+
     <div class="container scene1">
-    <img id="rings" class="image backgroundChange"  src="https://cdn.myportfolio.com/09ab80af-6638-485d-9a0e-fc8b193a105a/6d1e55d2-fa67-4220-9471-9bdf8977dfc8_rw_1200.gif?h=f366b555dda3feb5828306cd89381fd7" alt="ring animation">
-  </div>
-    <div>
+     
+           <div>
       <button class="playBtn play" id="Play">Play</button>
       <button class="stopBtn stop" id="Stop">Pause</button>
+     
+  </div>  
+   
   </div>
+ <footer class="footer-basic-centered">
+    <p class="footer-links">
+
+    </p>
+    <p class="footer-links1">
+
+    </p>
+
+    <p class="footer-company-name">Copyright &copy; V.W. Fine Art 2022</p>
+
+  </footer>
+
+ 
 </body>
 
 </html>
